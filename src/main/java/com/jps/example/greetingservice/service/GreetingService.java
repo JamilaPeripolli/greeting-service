@@ -9,7 +9,7 @@ import java.util.Random;
 @Service
 public class GreetingService {
 
-    private List<String> greetings = Arrays.asList("Hi!", "Hello!", "Hey!");
+    private List<String> greetings = Arrays.asList("Hi", "Hello", "Hey");
 
     public String getGreeting() {
         Random random = new Random();
